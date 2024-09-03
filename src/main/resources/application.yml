@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: test-fab
+  datasource:
+    name: testfab
+    generate-unique-name: false
+  jpa:
+    hibernate:
+      ddl-auto: update
+logging:
+  level:
+    org.springframework.*: TRACE
